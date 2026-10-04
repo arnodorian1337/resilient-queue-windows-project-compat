@@ -1,0 +1,11 @@
+{
+  "project-browser-hook-proof": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File .\\hook-proof.ps1",
+        "timeout": 20
+      }
+    ]
+  }
+}
